@@ -1,0 +1,464 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name = "essay" content = "Our relationship to the Network reimagined">
+<title>Autonomous Web</title>
+<link rel="stylesheet" href="https://use.typekit.net/rgg2uqj.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="header"><h2 id="index_button" class="left" onclick="openIndex()">INDEX</h2> <h2>//</h2> <h2 id="about_button" onclick="openAbout()">ABOUT</h2> <h2 id="zine_button" class="right"><a href="experimental_handbook_for_internet_autonomy.pdf">GET THE ZINE</a></h2> <h2 id="mobile_dash">//</h2><h2 id="mobile_zine_button" class="right"><a href="experimental_handbook_for_internet_autonomy.pdf">ZINE</a></h2></div>
+
+  <div id="about">
+    <div class="close_button" onclick="closeAbout()"><p style="margin:0; padding:0;">X</p></div>
+    <div style="width:100%; text-align:center; margin-top:25px;"><h2 style="margin:0;">ABOUT</h2></div>
+    <p id="introp">How can people self-govern their internet experience? How can they obtain autonomy from the internet while still being able to use it according to their needs?<br>
+      <br>
+      In its search for internet autonomy, this publication reimagines the web as two extreme versions of itself. An oppressive, alienating dystopia where users became enslaved by the web, and its polar opposite, a utopian realm where biological life and the autonomous internet exist in true cybernetic harmony.<br>
+      <br>
+      The negative story takes the form of a comic novel, examining the myriad ways in which the internet cunningly takes away our freedom. In this world, which could be us in a not so distant future, people live in a zombie-like state. Constantly connected to their digital devices, that shun them from reality, they live and die as data generators for the Cloud.<br>
+      <br>
+      The positive story is a catalogue of experiments, thoughts and behaviours focused on autonomy and the internet. It addresses the nasty aspects of the web as told in the pessimistic story. In doing so, it reimagines the internet as we know it as the speculative Autonomous Web, an internet which is decentralised, where people have control over their own data, identity and actions and where browsing is an embodied and often multi-user experience.<br>
+      <br>
+      The Experimental Handbook for Internet Autonomy is a Zine, which you can print <a href="experimental_handbook_for_internet_autonomy.pdf">here</a>. As the physical counterpart of this publication, it takes the experiments and behaviours of the Autonomous Web and turns them into executable ‘human algorithms’, making them tangible tools for collaborative (re)thinking about our relationship to the network.
+    </p>
+  </div>
+
+  <div id="index" style="display: none">
+    <div class="close_button" onclick="closeIndex()"><p style="margin:0; padding:0;">X</p></div>
+    <p><a class="indexp" href="#part1">
+      <strong>&#8226; Part One:</strong> The Earthbound Cloud
+    </a></p>
+    <p><a class="indexp" href="#part2">
+      <strong>&#8226; Part Two:</strong> The Anonymous People of the Surface
+    </a></p>
+    <p><a class="indexp" style="color: blue;" href="#anonymous_title">
+      <strong>&#8226; An Anonymous Internet that Fosters Communities</strong>
+    </a></p>
+    <p><a class="indexp" href="#part3">
+      <strong>&#8226; Part Three:</strong> The Zombified Internet Surfer
+    </a></p>
+    <p><a class="indexp" style="color: #e30099;" href="#embodied_title">
+      <strong>&#8226; Embodied Browsing: Embracing Physicality While Reducing the Electrical Footprint</strong>
+    </a></p>
+    <p><a class="indexp" href="#part4">
+      <strong>&#8226; Part Four:</strong> Brainwashed
+    </a></p>
+    <p><a class="indexp" style="color: #d93434;" href="#bidirectionals_title">
+      <strong>&#8226; Bidirectional Links to Fight False Information</strong>
+    </a></p>
+    <p><a class="indexp" href="#part5">
+      <strong>&#8226; Part Five:</strong> To Take the Power Back
+    </a></p>
+    <p><a class="indexp" style="color: #588810;" href="#decentralised_title">
+      <strong>&#8226; The Decentralised Net: Autonomy from Big Data</strong>
+    </a></p>
+    <p><a class="indexp" href="#part6">
+      <strong>&#8226; Part Six:</strong> A Fresh Start
+    </a></p>
+
+    <p><a class="indexp" href="#conclusion">
+      <strong>&#8226; Conclusion</strong>
+    </a></p>
+  </div>
+
+  <div class="wrapper">
+
+  <div id="title">
+    <h1>The Autonomous Web</h1>
+    <p>Reimagining our Relationship with the Network</p>
+  </div>
+
+    <div id="part1" class="comic_title">Part One: The Earthbound Cloud</div>
+    <div class="comic-wrapper">
+
+      <div class="slides1 fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="pages/page1.jpg" alt="comic book page 1" class="pic black">
+      </div>
+
+      <div class="slides1 fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="pages/page2.jpg" alt="comic book page 2" class="pic black">
+      </div>
+
+      <div class="slides1 fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="pages/page3.jpg" alt="comic book page 3" class="pic black">
+      </div>
+
+      <div class="slides1 fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="pages/page4.jpg" alt="comic book page 4" class="pic black">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+
+    <div class="textwrapper" id="text1">
+      <div class="leftp">
+        <p class="researchp"> Unlike the metaphor of the ‘Cloud’ suggests, data is not floating in ethereal space. It is earthbound and earth-consuming. The real internet is stored in windowless data-centres and transmitted by underwater cables that span across entire oceans. These infrastructures require large amounts of electricity to operate, making surfing the internet a more energy consuming activity than most perceive it to be.<br>
+        <br>
+        The back-end activities required to run and maintain large networks, such as Youtube and Instagram, consume vast resources. The electrical cost of charging a device and watching one hour of video is negligible compared to the cost of sending the data from the server to a device over the network (<a href="#references">1</a>).
+        </p>
+      </div>
+
+      <div class="rightpic">
+        <img src="assets/datacentre.jpg" alt="data centre" class="pic">
+        <p class="legenda">NorthC Data Centre in Rotterdam, from www.datacenterhawk.com, Photographer Unknown.</p>
+      </div>
+   </div>
+
+    <div id="part2" class="comic_title">Part Two: The Anonymous People of the Surface </div>
+    <div class="comic-wrapper">
+
+      <div class="slides2 fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="pages/page5.jpg" alt="comic book page 5" class="pic black">
+      </div>
+
+      <div class="slides2 fade">
+        <div class="numbertext">6 / 8</div>
+        <img src="pages/page6.jpg" alt="comic book page 6" class="pic black">
+      </div>
+
+      <div class="slides2 fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="pages/page7.jpg" alt="comic book page 7" class="pic black">
+      </div>
+
+      <div class="slides2 fade">
+        <div class="numbertext">8 / 8</div>
+        <img src="pages/page8.jpg" alt="comic book page 8" class="pic black">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+
+    <div class="textwrapper" id="text2">
+      <div class="leftp">
+        <p class="researchp">
+          The anonymity and safety of sitting behind a screen gives some the much needed freedom to speak their minds and the confidence to socialise. In contrast, others abuse it, creating a destructive culture of trolling and cyberbullying (<a href="#references">2</a>). Any system that encompasses billions of human lives is naturally chaotic and contradictory. The right attitude, I think, is not to attempt to suck people in and control them as most internet megastructures like to do. When our lives revolve around these platforms, it’s easy to get angry, feel attacked, and jump towards conflict. Instead, I propose a mutual commitment, where online platforms stop trying to make us dependent at all costs and we, the people, use the opportunity to reattach ourselves to our own realities and learn how to navigate in complex and chaotic virtual space.
+        </p>
+
+        <p class="awtitle" id="anonymous_title">
+          An Anonymous Internet that Fosters Communities &#8628;
+        </p>
+      </div>
+
+      <div class="rightpic">
+        <img src="assets/anon.jpg" alt="anonymous protest picture" class="pic">
+        <p class="legenda">Photo by user anonymous612 of whyweprotest.net, 2010</p>
+      </div>
+   </div>
+
+   <div class="awpicture"><img src="awpictures/anonymity.jpg" alt="anonymous avatar" class="pic blue"></div>
+
+   <div class="awparagraph" id="anonparagraph">
+     <p class="wide">In the speculative Autonomous Web, sources of information are openly available to everyone and data servers decentralised. As a result, cyber attacks are uncommon and the big data economy fell, making the public use of personal data obsolete. Personal authentication is often done locally as people own their own servers. Allowing people to be truly anonymous encourages self-expression and alternative forms of culture to flourish. It empowers citizens of repressive governments to self-organise and minorities to protest without fear. This anonymous internet fosters communities. Of course, it can also lead to abuse, making communitarian social values very important.
+     Deciding to include it in the Autonomous Web came down to a shared philosophical belief in the goodness of human nature.
+     </p>
+   </div>
+
+   <div id="part3" class="comic_title">Part Three: The Zombified Internet Surfer </div>
+   <div class="comic-wrapper">
+
+     <div class="slides3 fade">
+       <div class="numbertext">9 / 13</div>
+       <img src="pages/page9.jpg" alt="comic book page 9" class="pic black">
+     </div>
+
+     <div class="slides3 fade">
+       <div class="numbertext">10 / 13</div>
+       <img src="pages/page10.jpg" alt="comic book page 10" class="pic black">
+     </div>
+
+     <div class="slides3 fade">
+       <div class="numbertext">11 / 13</div>
+       <img src="pages/page11.jpg" alt="comic book page 11" class="pic black">
+     </div>
+
+     <div class="slides3 fade">
+       <div class="numbertext">12 / 13</div>
+       <img src="pages/page12.jpg" alt="comic book page 12" class="pic black">
+     </div>
+
+     <div class="slides3 fade">
+       <div class="numbertext">13 / 13</div>
+       <img src="pages/page13.jpg" alt="comic book page 13" class="pic black">
+     </div>
+
+     <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+   </div>
+
+   <div class="textwrapper" id="text3">
+     <div class="leftp">
+       <p class="researchp">
+         Browsing the internet is not easily defined in spatial or temporal boundaries. The development of smartphones, social media and online messaging has blurred the distinction between online and offline, physical and digital, real and not real. Most smartphone owning teens and adults live in a state of permanent connectedness, constantly jumping in and out of the internet at the command of their devices (<a href="#references">3</a>). It is alienating to break away from this technology, yet participating in it can become overwhelming and detrimental as well.<br>
+         <br>
+        This constant interaction with our digital devices encourages mindless browsing. It is common for smartphone users to find themselves mindlessly swiping or scrolling through videos and newsfeeds. This behaviour can easily make people loose valuable time and it can be isolating in social settings. An autonomous internet should therefore not only focus on autonomy inside the internet, but on physical autonomy <em>from</em> the internet as well. A system that makes the act of browsing more physical, thus enhancing awareness and avoiding the pitfall of mindless browsing, is highly desirable.
+       </p>
+     </div>
+
+     <div class="rightpic">
+       <img src="assets/mindless_browsing.jpg" alt="anonymous protest picture" class="pic">
+       <p class="legenda">Mindless browsing. Photo by the author, 2021.</p>
+     </div>
+
+  </div>
+
+  <p class="awtitle" id="embodied_title">
+    Embodied Browsing: Embracing Physicality While Reducing the Electrical Footprint &#8623;
+  </p>
+
+  <div class="awpicture"><img src="awpictures/embodied1.jpg" alt="anonymous avatar" class="pic magenta"></div>
+
+  <div class="awparagraph" id="embodiedparagraph">
+    <p class="wide">In the Autonomous Web, consuming content requires actual heavy lifting, contributing to one’s physical health, strength and mobility and breaking the monotony associated with browsing.<br>
+      <br>
+      Online content in this world has a physical manifestation, which must have a maximum threshold associated with the electricity it consumes. As a piece of content is seen more in the AW, it grows physically heavier, as its network cost grows too. Eventually it grows too heavy for a single person to lift it. This encourages embodied, multi-user browsing. It also encourages people to become stronger and more mobile, in order to be able to access more content. Mechanical devices are usually illegal and considered ‘hacking’, yet they are available within limited power for people with various disabilities. Some content has gone truly viral and achieved mythical status, in which case people organise events where they attempt to lift it in large numbers, pushing records.
+    </p>
+  </div>
+
+  <div class="awpicture"><img src="awpictures/embodied2.jpg" alt="anonymous avatar" class="pic magenta"></div>
+
+  <div class="awparagraph" style="color: #e30099;">
+    <p class="wide">Hybrid evenings mixing strength sports and movie-going
+      became a central hobby for this society. Some attend these events to watch the strongest local athletes perform superhuman feats of strength, others are more excited about the film they will get to see later. More popular films are heavier, making some all-time classics rarified gems.
+    </p>
+  </div>
+
+  <div id="part4" class="comic_title">Part Four: Brainwashed </div>
+  <div class="comic-wrapper">
+    <div class="slides4 fade">
+      <div class="numbertext">14 / 15</div>
+      <img src="pages/page14.jpg" alt="comic book page 14" class="pic black">
+    </div>
+
+    <div class="slides4 fade">
+      <div class="numbertext">15 / 15</div>
+      <img src="pages/page15.jpg" alt="comic book page 15" class="pic black">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+  </div>
+
+  <div class="textwrapper" id="text4">
+    <div class="leftp">
+      <p class="researchp">
+        The abundance of information available online exposes us to contradicting narratives and conflicting worldviews, making way for conspiracy theories, fake news and misinformation. Communities form around these narratives, creating ideological bubbles, often leaning towards extreme political views (<a href="#references">4</a>).<br>
+        <br>
+        Information gets decontextualised as records of provenance get lost. The objective truth too gets lost in the process. Once a snippet of a text or interview is taken out of context, it can be rearranged to tell a completely different story.<br>
+        <br>
+        Furthermore, if a piece of information cannot be traced back to its original source, circular reporting can occur, as two different sources cite each other with no triangulation of the information reported. This is often done intentionally to reinforce belief in false information (<a href="#references">5</a>). In the WWW framework, hyperlinks are one-directional. No one can tell if the information has been copied, context is lost and scammers can hide (<a href="#references">6</a>).
+      </p>
+    </div>
+
+    <div class="rightpic">
+      <img src="assets/qanon_flag.jpg" alt="anonymous protest picture" class="pic">
+      <p class="legenda">QAnon flag at 2020 2nd Amendment Rally, Virginia, USA. Photo by Anthony Crider, CC BY 2.0.</p>
+    </div>
+  </div>
+
+  <p class="awtitle" id="bidirectionals_title">
+    Bidirectional Links to Fight False Information &#8693;
+  </p>
+
+  <div class="awpicture"><img src="awpictures/bidirectionals1.jpg" alt="anonymous avatar" class="pic red"></div>
+
+  <div class="awparagraph" style="color: #d93434;">
+    <p class="wide">Hyperlinks work both ways in the Autonomous Web. This means that everyone on the internet can see the whole path of a link, from its original source to the receiving end, allowing better fact-checking and avoiding circular reporting. Even though people
+      themselves are anonymous, malicious sources are actively flagged by a community that is accustomed to spot links travelling odd paths. Sources that spread viruses and false information are therefore easily identifiable and usually short-lived. This gave rise to a resilient and socially aware
+      community that is not easily fooled.
+    </p>
+  </div>
+
+  <div class="awpicture"><img src="awpictures/bidirectionals2.jpg" alt="anonymous avatar" class="pic red"></div>
+
+  <div class="awparagraph" style="color: #d93434;">
+    <p class="wide">Once identified, the people can take action against malicious sources, halting the spread of viruses and false information.<br>
+      <br>
+      Bidirectional links in the AW do not attempt to censor conflicting world-views or controversial opinions. They merely render the path of this information transparent, empowering people to make more informed choices regarding what they choose to believe.
+    </p>
+  </div>
+
+  <div id="part5" class="comic_title">Part Five: To Take the Power Back</div>
+  <div class="comic-wrapper">
+    <div class="slides5 fade">
+      <div class="numbertext">16 / 21</div>
+      <img src="pages/page16.jpg" alt="comic book page 16" class="pic black">
+    </div>
+
+    <div class="slides5 fade">
+      <div class="numbertext">17 / 21</div>
+      <img src="pages/page17.jpg" alt="comic book page 17" class="pic black">
+    </div>
+
+    <div class="slides5 fade">
+      <div class="numbertext">18 / 21</div>
+      <img src="pages/page18.jpg" alt="comic book page 18" class="pic black">
+    </div>
+
+    <div class="slides5 fade">
+      <div class="numbertext">19 / 21</div>
+      <img src="pages/page19.jpg" alt="comic book page 19" class="pic black">
+    </div>
+
+    <div class="slides5 fade">
+      <div class="numbertext">20 / 21</div>
+      <img src="pages/page20.jpg" alt="comic book page 20" class="pic black">
+    </div>
+
+    <div class="slides5 fade">
+      <div class="numbertext">21 / 21</div>
+      <img src="pages/page21.jpg" alt="comic book page 21" class="pic black">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+  </div>
+
+  <div class="textwrapper" id="text5">
+    <div class="leftp">
+      <p class="researchp">
+        As people spend more time online, their behaviour becomes recordable and parameterised. In other words, the internet inadvertently became the perfect tool to study and register human behaviour. Our actions in the browser, from what we click on to how long we spend on it, are valuable pieces of data, which power the algorithms that determine what we want to buy, see or read next. These algorithms carefully mediate our behaviour in and outside the internet and the data they generate affects our lives beyond the computer screen, often negatively (<a href="#references">7</a>). As data-driven businesses grow, extensive resources are spent on collecting people’s information and developing the most efficient programs, feeding what is referred to as the Big Data Economy. <br>
+        <br>
+        Data translates to profit and power over the user. Thus, platforms such as Google and Facebook, which have access to copious amounts of data from their numerous users, have a concerning amount of power. Contrary the internet’s node-like architecture, the powers that govern it are increasingly centralised.
+      </p>
+    </div>
+
+    <div class="rightpic">
+      <img src="assets/invasive_data.jpg" alt="anonymous protest picture" class="pic">
+      <p class="legenda">Collage of numerous screenshots from my phone, 2021.</p>
+    </div>
+  </div>
+
+  <p class="awtitle" id="decentralised_title">
+    The Decentralised Net: Autonomy<br>
+    from Big Data &#10549;
+  </p>
+
+  <div class="awpicture" id="rpi"><img src="awpictures/decentralised.jpg" alt="anonymous avatar" class="pic green"></div>
+
+  <div class="awparagraph" style="color: #588810;">
+    <p class="wide">In the speculative Autonomous Web, each household has an autonomous server space, usually in a room embedded with plants, ponds and water tanks for shade and a cool temperature. The server harvests electrical energy from plant microbial fuel cells, as well as sunlight. This creates a self-contained cybernetic ecosystem, allowing each household to control their own data, which is then shared with other servers but never uploaded there, enabling the owner to pull-out or change data at will. Harvesting people’s data becomes infinitely more complex, discouraging the big data economy and the persuasion technology it employs. Moreover, it reduces the overall cost of the network.<br>
+    <br>
+    As individual servers are decentralised, popular services and platforms do not keep their users’ data, saving them considerable server space. Those platforms are thus much more cost-efficient, making most of their revenue from offering enhanced functionalities or paid subscriptions. This system renders ads obsolete, as lower maintenance costs reduce their monetary incentive and the lack of user data makes them inefficient. It also gives new initiatives a chance at success. A lot of big platforms in the AW are maintained and developed by members of the community.
+    </p>
+  </div>
+
+  <div id="part6" class="comic_title">Part Six: A Fresh Start</div>
+  <div class="comic-wrapper">
+    <div class="slides6 fade">
+      <div class="numbertext">22 / 24</div>
+      <img src="pages/page22.jpg" alt="comic book page 22" class="pic black">
+    </div>
+
+    <div class="slides6 fade">
+      <div class="numbertext">23 / 24</div>
+      <img src="pages/page23.jpg" alt="comic book page 23" class="pic black">
+    </div>
+
+    <div class="slides6 fade">
+      <div class="numbertext">24 / 24</div>
+      <img src="pages/page24.jpg" alt="comic book page 24" class="pic black">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+  </div>
+
+  <p class="awtitle" id="conclusion">
+    Conclusion
+  </p>
+
+  <div class="textwrapper" id="text6">
+    <div class="leftp" style="margin-top:-50px;">
+      <p class="researchp">
+        The Autonomous Web proposes alternative systems to the current lack of autonomy on the internet: Anonymity ensures democratic freedom of speech, albeit at the risk of being exploited; Embodied Browsing frees us from the omnipresence of the internet by rendering navigation physical and collaborative; Bidirectional Linking contextualises information, empowering us to base our beliefs in educated choices; And Decentralisation balances the power structures that govern the web, releasing us from the tight grip of big tech corporations.<br>
+        <br>
+        However, besides its author’s personal vision of a better internet, it strongly argues that the path to an Autonomous Web should come from all of us, internet users with different needs, backgrounds and expertise. It is an attitude that we must take upon ourselves to cultivate. It involves systems thinking, a pinch of techno-literacy and lots of speculative fabulation. It borrows from ecologies, cybernetics and self-organised communities, as the internet itself is an ecosystem that we must learn how to navigate and take care of.
+      </p>
+    </div>
+  </div>
+
+  <p class="awtitle" id="references">
+    References
+  </p>
+
+  <div class="textwrapper" id="text7">
+    <div class="leftp" style="margin-top:-50px;">
+      <p class="researchp">
+        <br>
+        1. Bridle, James. <em>New Dark Age: Technology and the End of the Future.</em> Verso, 2019.<br>
+        <br>
+        2. <em>We Are Legion: The Story of the Hacktivists.</em> Directed by Brian Knappenberger. Luminant Media, 2012.<br>
+        <br>
+        3. <em>The Social Dilemma.</em> Directed by Jeff Orlowski. Netflix, 2020.<br>
+        <br>
+        4. Roose, Kevin. <em>Rabbit Hole.</em> The New York Times, 2020, <a href="https://www.nytimes.com/column/rabbit-hole">www.nytimes.com/column/rabbit-hole</a>.<br>
+        <br>
+        5. Tavlin, Noah. <em>How False News Can Spread.</em> YouTube, uploaded by TED-Ed, 27 Aug. 2015, <a href="https://www.youtube.com/watch?v=cSKGa_7XJkg">www.youtube.com/watch?v=cSKGa_7XJkg</a>. <br>
+        <br>
+        6. Lanier, Jaron. <em>Dawn of the New Everything: A Journey Through Virtual Reality.</em> Vintage, 2018. <br>
+        <br>
+        7. O’Neil, Cathy. <em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy.</em> Crown, 2017. <br>
+      </p>
+    </div>
+  </div>
+
+  <p class="awtitle" id="readfurther">
+    Further Resources
+  </p>
+
+  <div class="textwrapper" style="height: 365px;">
+    <div class="leftp" style="margin-top:-50px;">
+      <p class="researchp" id="furthermobile">
+        <strong>Anonymity:</strong><br>
+        <br>
+        The Onion Routing program is made up of projects researching, designing, building, and analysing anonymous communications systems: <a href="https://www.onion-router.net/">www.onion-router.net</a>.<br>
+        <br>
+        <strong>Embodied Browsing:</strong><br>
+        <br>
+        Pavel Tsatsouline’s <em>Enter the Kettlebell</em> video course, where the legendary Russian strength instructor teaches proper technique for safe lifting: <a href="https://www.youtube.com/watch?v=cKx8xE8jJZs">www.youtube.com/watch?v=cKx8xE8jJZs</a>.<br>
+        <br>
+        Phillipp Schmitt’s <em>Camera Restricta</em>, a speculative camera that assigns a limit to how many times certain places can be photographed, which served as an inspiration for my embodied browsing idea: <a href="https://philippschmitt.com/archive/2018/work/camera-restricta.html">philippschmitt.com/archive/2018/work/camera-restricta.html</a>.<br>
+        <br>
+        <strong>Bidirectional Links:</strong><br>
+        <br>
+        Jaron Lanier’s book <em>Who Owns the Future?</em>, where he argues about the use and implementation of bidirectional links, among other aspects of the internet.<br>
+        <br>
+        <em>As We May Think</em>, Vannevar Bush’s 1945 essay anticipating many aspects of the information age, which outlines the basic principles of bidirectional links in his proposed Memex machine.<br>
+        <br>
+        Maggie Appleton’s repository of digital gardening tools, many of them focusing on building two-way links and wikis within the WWW framework: <a href="https://github.com/MaggieAppleton/digital-gardeners/">github.com/MaggieAppleton/digital-gardeners/</a>.<br>
+        <br>
+        Project Xanadu’s explanation of their model of deep hypertext, 'built on the assumption of perpetual change and re-use’: <a href="https://xanadu.com/xuTheModel/">xanadu.com/xuTheModel/</a>.<br>
+        <br>
+        <strong>Decentralised Net:</strong><br>
+        <br>
+        Explore the network of federated servers for web publishing and data hosting around the Fediverse: <a href="https://fediverse.party/">fediverse.party</a>.<br>
+        <br>
+        This series, taught by Coding Train’s Daniel Schiffman, covers the decentralised open source social media platform Mastodon and how to make a bot: <a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6byiVX7_Z1rclitVhMBmNFQ">www.youtube.com/playlist?list=PLRqwX-V7Uu6byiVX7_Z1rclitVhMBmNFQ</a>.<br>
+        <br>
+        The homebrewserver.club is a monthly gathering for those who wish to host their own online services from home, rather than using commercial and privacy unfriendly alternatives: <a href="https://homebrewserver.club/">homebrewserver.club</a>.<br>
+      </p>
+    </div>
+  </div>
+
+
+
+  </div>
+
+<script src="slideshow.js"></script>
+<script src="openclose.js"></script>
+</body>
+
+</html>

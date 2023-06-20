@@ -1,0 +1,72 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name = "categories" content = "collection of projects by graphic designer Rodrigo Cardoso">
+<title>3D &amp; Video</title>
+<link rel="stylesheet" href="https://use.typekit.net/qjo1yij.css">
+<link rel="stylesheet" type="text/css" href="substyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <script src="bodymovin.js"></script>
+
+  <div id="topmenu">
+		<div class="topbutton" id="back_btn"><h3><a class="nostyle" href="index.html">&#8592; Back</a></h3></div>
+		<div class="topbutton" id="vid_button"><h3 id="vb"><a id="clicked" class="nostyle red" href="video.html">3D &amp; Video</a></h3><h3 id="vbshort"><a id="clickedShort" class="nostyle red" href="video.html">Video</a></h3></div>
+		<div class="topbutton" id="web_button"><h3 id="wb"><a class="nostyle" href="web.html">Web</a></h3></div>
+		<div class="topbutton" id="code_button"><h3 id="cb"><a class="nostyle" href="coding.html">Creative Coding</a></h3><h3 id="cbshort"><a class="nostyle" href="coding.html">Coding</a></h3></div>
+		<div class="topbutton" id="print_button"><h3 id="pb"><a class="nostyle" href="print.html">Print</a></h3></div>
+    <div class="topbutton" id="misc_button"><h3 id="mb"><a class="nostyle" href="misc.html">Miscellaneous</a></h3><h3 id="mbshort"><a class="nostyle" href="misc.html">Misc.</a></h3></div>
+		<div class="topbutton" id="topright"><img id="x" src="x.png" alt="X" onclick="closeVid()">
+    <img id="smile" src="smile.png" alt="smile" style="display:none;"></div>
+	</div>
+
+  <div class="content" id="video" style="display: inline;">
+    <div class="m_close_button"><a href="categories.html" class="nostyle" style="margin:0; padding:0;">X</a></div>
+
+    <div class="post_video">
+      <h2> WORM Weekend Collection </h2>
+      <div class="vid_container"><iframe class="vid" src="https://player.vimeo.com/video/447849100" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+      <a class="website_link" href="https://www.instagram.com/p/B8yst-alcU-/">See more on WORM's Instagram</a><br>
+      <p>Every weekend is a collection of different stories at WORM. To make justice to this cultural and artistic diversity,
+        the infamous Weekend Videos borrow from many tools and styles.</p>
+    </div>
+
+    <div class="post_video" id="cloud_video">
+      <h2> The Cloud is Clouded </h2>
+      <div class="vid_container"><iframe class="vid" src="https://player.vimeo.com/video/358260859" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+      <p>What exactly is The Cloud?<br> This hybrid visual
+        essay takes shape in print and video format. It’s the conclusion of
+        research into how we perceive the symbology of clouds throughout history
+        and how our relationship with the modern Cloud is evolving.<br>
+      <br>
+      <a class="website_link" onclick="openPrint()" href="#cloud_print">Take a look at the print version.</a>
+    </p>
+    </div>
+
+  </div>
+
+
+  <div class="wrapper">
+		<div id="lottie"></div>
+	</div>
+
+	<div class="foot"></div>
+
+	<custom-background>
+
+		<div id="sky">
+
+		</div>
+
+	</custom-background>
+
+<script src="close_categories.js"></script>;
+<script src="opacity.js"></script>
+<script src="animation.js"></script>
+</body>
