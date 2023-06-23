@@ -1,0 +1,10 @@
+.about {
+  width: 100vw
+}
+
+.about-wrapper {
+  width: 1060px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: antiquewhite;
+}

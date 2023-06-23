@@ -1,0 +1,54 @@
+.navbar {
+  width: 100vw;
+  height: 28px;
+  border-bottom: 1.5px solid black;
+  padding: 20px 0px;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "degular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-right, .nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar h1 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.nav-header {
+  margin: 0;
+}
+
+.nav-header i {
+  font-size: 20px;
+  margin-left: 4px;
+}
+
+.nav-btn-long {
+  display: inline;
+  height: 26;
+  padding: 2px 16px 6px 16px;
+
+  border: 1.5px solid black;
+  border-radius: 150px;
+
+  font-size: 22px;
+  font-family: Degular;
+  font-weight: 500;
+}
+
+.nav-wrapper {
+  width: 1060px;
+  display: flex;
+  justify-content: space-between;
+}
