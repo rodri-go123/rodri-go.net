@@ -1,10 +1,40 @@
+#about-container {
+  position: fixed;
+  top: 0;
+}
+
 .about {
-  width: 100vw
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-wrapper {
-  width: 1060px;
   display: flex;
   justify-content: flex-start;
-  background-color: antiquewhite;
+  height: 293px;
+}
+
+.about-wrapper p {
+  font-size: 20px;
+  margin-right: 200px;
+  margin-top: 48px;
+}
+
+.about-wrapper a {
+  color: #4848D3;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-wrapper a:hover {
+  color: #DF2E38;
+  cursor: pointer;
+}
+
+.about-wrapper img {
+  width: 376px;
+  height: 293px;
+  position: absolute;
+  right: 0;
 }

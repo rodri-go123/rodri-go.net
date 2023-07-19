@@ -1,0 +1,57 @@
+
+.projects-nav {
+  border-top: 1.5px solid #252525;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  margin-top:362.5px;
+  background: white;
+  scroll-snap-align: start;
+}
+
+#projects-container {
+  background: white;
+  z-index: 8;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  width: 1060px;
+  height: 200vh;
+  padding-top: 24px;
+}
+
+.projects > .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.projects > .row > div {
+  background: #ffecb3;
+  height: 450px;
+  margin-bottom: 24px;
+}
+
+.pr-card {
+
+}
+
+.col-large {
+  width: 771px;
+}
+
+.col-medium {
+  width: 506px;
+}
+
+.col-small {
+  width: 241px;
+}
