@@ -1,11 +1,12 @@
+@import "project-cards.css";
 
 .projects-nav {
-  border-top: 1.5px solid #252525;
+  border-top: 1.5px solid var(--black-grey);
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   z-index: 10;
-  margin-top:362.5px;
+  margin-top:417px;
   background: white;
   scroll-snap-align: start;
 }
@@ -21,9 +22,9 @@
 }
 
 .projects {
-  width: 1060px;
+  width: var(--page-width);
   height: 200vh;
-  padding-top: 24px;
+  padding-top: var(--spacer);
 }
 
 .projects > .row {
@@ -31,27 +32,23 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: var(--spacer);
 }
 
 .projects > .row > div {
   background: #ffecb3;
-  height: 450px;
-  margin-bottom: 24px;
-}
-
-.pr-card {
-
+  min-height: 450px;
+  margin-bottom: var(--spacer);
 }
 
 .col-large {
-  width: 771px;
+  width: 74.4339622642%;
 }
 
 .col-medium {
-  width: 506px;
+  width: 48.8679245283%;
 }
 
 .col-small {
-  width: 241px;
+  width: 23.3018867925%;
 }

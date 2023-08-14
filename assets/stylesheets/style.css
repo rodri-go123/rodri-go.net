@@ -1,6 +1,15 @@
 @import "components/navbar.css";
 @import "components/about.css";
 @import "components/projects.css";
+@import "components/footer.css";
+
+:root {
+  --black-grey: #252525;
+  --purple-blue: #4848D3;
+  --truck-red: #DF2E38;
+  --spacer: 24px;
+  --page-width: 1060px;
+}
 
 html, body {
   padding: 0;
@@ -9,7 +18,7 @@ html, body {
   font-family: "aktiv-grotesk", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #252525;
+  color: var(--black-grey);
 }
 
 .container {
@@ -33,5 +42,5 @@ html, body {
 }
 
 .full-width {
-  width: 1060px;
+  width: var(--page-width);
 }
