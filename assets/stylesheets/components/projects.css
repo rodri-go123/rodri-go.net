@@ -6,9 +6,8 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  margin-top:417px;
+  margin-top: 417px;
   background: white;
-  scroll-snap-align: start;
 }
 
 #projects-container {
